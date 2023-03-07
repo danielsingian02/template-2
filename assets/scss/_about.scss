@@ -1,0 +1,706 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@300;500;600;700&display=swap');
+
+.hero-banner{
+    background-image: url(assets/images/herobanner.png);
+    background-size: cover;
+    padding: 5em;
+}
+
+.hero-banner__head{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100px;
+    font-weight: 500;
+    line-height: 88px;
+    color:white;
+}
+
+.hero-banner__col1{
+    width: 60%;
+}
+
+.hero-banner__col2{
+    width: 40%;
+}
+
+.hero__form-title{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: right;
+    width: 100%;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.hero__form-btn-container{
+    width: 100%;
+    justify-content:end;
+}
+
+button {
+    background-color: #094DA2;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    padding: 10px;
+    margin-right: 10px ;
+    float: right;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+        display: block;
+        float: none;
+  }
+  .cancelbtn {
+        width: 100%;
+  }
+}
+
+/* About */
+
+.about {
+    padding: 7em;
+}
+
+.about__wrap {
+    align-items: center;
+}
+
+.about__col1 {
+    width: 50%;
+    height: 100%;
+}
+
+.about__col2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about__col1__head {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 30px;
+    color:black;
+}
+
+.about-col1__intro {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 27px;
+    padding-top: 20px;
+    color:black;
+}
+
+.about__img {
+    border-style: solid;
+    color:blue;
+    border-width: 0px 0px 0px 10px;
+}
+
+/* end of About */
+
+/* Card Section */
+
+.card-section {
+    padding-bottom: 2.5em;
+}
+.card-wrapper {
+    display: flex;  
+    flex-wrap: wrap;
+}
+
+.card-wrapper__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+}
+
+.card-section__head {
+    text-align: center;
+    color:black;
+    font-size: 31px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+}
+
+.card__description{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    color: #525252;
+}
+
+.comment__description{
+    padding: 20px;
+}
+
+.card__user-description{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 29px;
+    color: #525252;
+    text-align: left;
+}
+
+.card__user-name{
+    margin: 0px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color:#6223DB;
+}
+
+.card-section__info {
+    text-align: center;
+    font-size: 16px;
+    color:black;
+}
+
+.card-wrapper__card {
+    border-radius: 20px;
+    margin: 20px;
+    padding: 100px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-align: center;
+    width: 30%;
+}
+
+.comment__name {
+    font-size: 18px;
+    color: #036F33;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+}
+
+.comment-wrapper{
+    width: 100%;
+}
+
+/* end of Card Section */
+
+/* info */
+
+.info-section__heading {
+    text-align: center;
+    color:white;
+    font-size: 47px;
+    margin:0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.info-section {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #004BAC;
+    padding:10vh;  
+}
+
+.info-section__information {
+    color:white;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 172%;
+    padding: 20px 0px 20px 0px;
+}
+
+.info-section__button {
+    background-color: white;
+    border: none;
+    color: #094DA2;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'AirFactoryRounded', sans-serif;
+    text-decoration: none;
+}
+
+/* end of Info */
+
+/* services */
+
+.services {
+    padding: 7em;
+}
+
+.services__head {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #094DA2;
+    text-align: center;
+}
+
+.services__subhead {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #525252;
+}
+
+.services__card-wrapper {
+    width: 100%;
+    column-gap: 30px;
+    flex-wrap: wrap;
+}
+
+.services__firstcard {
+    background: #D9D9D9;
+    padding: 100px 20px 100px 20px;
+    width: 20%;
+}
+
+.services__secondcard {
+    background: #D9D9D9;
+    padding: 100px 20px 100px 20px;
+    width: 20%;
+}
+
+.services__thirdcard {
+    background: #D9D9D9;
+    padding: 100px 20px 100px 20px;
+    width: 20%;
+}
+
+.services__fourthcard {
+    background: #D9D9D9;
+    padding: 100px 20px 100px 20px;
+    width: 20%;
+}
+
+.services__icon-container {
+    width: 20%;
+}
+
+.services__title-container {
+    width: 80%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #094DA2;
+}
+
+.services__desc {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    padding-top: 20px;
+    color:#094DA2;
+}
+
+.services__link {
+    font-family:'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #094DA2;
+    text-decoration: none !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a:visited {
+    color: #094DA2;
+}
+
+.map__container-nav-description{
+    display: flex;
+    flex-direction: column;
+}
+
+/* end of services */
+
+/* map section */
+
+.map {
+    padding: 0px;
+    margin: 0px;
+}
+
+.map__info-col1 {
+    background-color: #004BAC;
+    width: 50%;
+    padding: 5em;
+}
+
+.map__navigation {
+    padding:0px ;
+  
+    & li {
+      display: flex;
+      list-style-type: none;
+      border-color: transparent;
+      color: white;
+    }
+  
+    & ul {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      column-gap: 30px;
+      justify-content: start;
+      margin: 0px;
+      padding: 30px 0px 30px 0px;
+    }
+  
+    & a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+  
+.map__logo {
+    width: 40%;
+}
+
+.map__location-col2 {
+    width: 50%;
+}
+
+.map__description{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 150%;
+    color: #D9D9D9;
+}
+
+.map__credits {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #D9D9D9;
+}
+
+.map__credits-copy{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #D9D9D9;
+    display: none;
+}
+
+iframe.location__iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* end of map section */
+
+
+// --------------------------------------------------------------------------------------------------------//
+//                                          SCREEN SIZE FOR TABLET  (768px)                                //
+// --------------------------------------------------------------------------------------------------------//
+
+@media only screen and (max-width: 768px) {
+
+/* Hero Banner */ 
+    .hero-banner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-banner__col1 {
+        width: 100%;
+        display: flex;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .hero-banner__col2 {
+        width: 100%;
+    }
+
+    .hero-banner__head {
+        font-size: 38px;
+    }
+/* end of Hero Banner */ 
+
+/* About */ 
+    .about{
+        padding: 0px;
+    }
+
+    .about__img{
+        width: 100%;
+    }
+
+    .about__wrap {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .about__col1{
+        width: 100%;
+        text-align: center;
+        padding: 2em;
+    }
+
+    .about__col2{
+        width: 100%;
+        padding: 0px;
+    }
+/* end of about Banner */ 
+
+/* Cards */
+    .card-wrapper__card {
+        width: 100%;
+    }
+/* end of cards*/
+
+
+/* Services */
+    .services {
+        padding: 5px;
+    }
+
+    .services__firstcard {
+        width: 45%;
+        margin: 5px;
+    }
+
+    .services__secondcard {
+        width: 45%;
+        margin: 5px;
+    }
+
+    .services__thirdcard {
+        width: 45%;
+        margin: 5px;
+    }
+ 
+    .services__fourthcard {
+        width: 45%;
+        margin: 5px;
+    }
+
+    .services__card-wrapper {
+        column-gap: 0px;
+    }
+
+/* end of Services*/
+
+/* Map */
+    .map {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .map__info-col1 {
+        width: 100%;
+        padding: 2em;
+    }
+
+    .map__location-col2 {
+        width: 100%;
+    }
+
+    iframe.location__iframe {
+        width: 100%;
+        height: 400px;
+    }
+
+    .map__container-nav-description{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .map__credits-copy {
+        display: block;
+        text-align: center;
+    }
+
+    .map__credits {
+        display: none;
+    }
+
+    .map__info-col1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .map__description {
+        text-align: center;
+    }
+
+    .map__navigation {
+        padding:0px ;
+      
+        & li {
+          padding: 10px;
+        }
+      
+        & ul {
+          flex-direction: column;
+          align-items: center;
+        }
+      
+        & a {
+          color: white;
+          text-decoration: none;
+        }
+      }
+    
+/* end of Map */
+}
+
+// --------------------------------------------------------------------------------------------------------//
+//                                          SCREEN SIZE FOR MOBILE  (425px)                                //
+// --------------------------------------------------------------------------------------------------------//
+
+@media only screen and (max-width: 425px) {
+    .hero-banner {
+        padding: 1em;
+    }
+
+/* About */
+    .hero__form-btn-container {
+        display: flex;
+        justify-content:start;
+    }
+
+    .hero__form-title {
+        font-size: 20px;
+    }
+
+    .about__col1__head {
+        font-size: 38px;
+    }
+
+    .about__col1 {
+        padding: 2em 1em 2em 1em;
+    }
+
+/* end of About */
+
+/* Card */
+    .card-section__head {
+        font-size: 38px;
+    }
+
+    .card-section {
+        padding: 2em;
+    }    
+
+    .card-wrapper__card {
+        margin: 0px 0px 2em 0px;
+        padding: 20px;
+    }
+
+/* end of Card*/
+
+/* Information */ 
+    .info-section {
+        padding: 2em 1em 2em 1em;
+    }
+/* end of Information*/
+
+/* Services */
+    .services {
+        padding-top: 5em;
+    }
+    .services__head {
+        font-size: 27px;
+    }
+
+    .services__subhead {
+        font-size: 9px;
+        line-height: 19px;
+    }
+
+    .services__firstcard {
+        width: 100%;
+        margin: 0px 2em 2em 2em;
+    }
+
+    .services__secondcard {
+        width: 100%;
+        margin: 0px 2em 2em 2em;
+    }
+
+    .services__thirdcard {
+        width: 100%;
+        margin: 0px 2em 2em 2em;
+    }
+ 
+    .services__fourthcard {
+        width: 100%;
+        margin: 0px 2em 2em 2em;
+    }
+
+/* end of Services */
+
+/* Map */
+
+    .map__logo {
+        width: 80%;
+    }
+/* end of Map */
+
+}
+

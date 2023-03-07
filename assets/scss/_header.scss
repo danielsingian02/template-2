@@ -1,0 +1,147 @@
+@font-face {
+  font-family: 'AirFactoryRounded';
+  src: url('../fonts/AirFactoryRounded.ttf');
+}
+
+button.btn.btn-light {
+  display: none;
+  @media only screen and (max-width: 768px) {
+    display: block;
+    position: absolute;
+    width: 50px;
+    top: 54px; 
+    right: 10px; 
+  }
+}
+
+.offcanvas-header {
+  padding-top: 5em;
+}
+
+header {
+  width: 100%;
+  font-family: 'AirFactoryRounded', Serif;
+  font-size: 27px;
+  
+  & .site-icon {
+    height: auto;
+    max-width: 250px;
+  }
+
+  & .site-title {
+    margin: 0;
+    padding: 0;
+  }
+
+  & .site-branding {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.5rem 0;
+  }
+
+  & nav {
+    width: 100%;
+
+    & ul, li {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 30px;
+    }
+
+    & ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      flex-direction: row;
+      flex-wrap: wrap;
+      column-gap: 30px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 30px;
+    }
+
+    a:visited{
+      color: black;
+    }
+
+    & li {
+      display: flex;
+      list-style-type: none;
+      border-color: transparent;
+
+      &.current_page_item > a {
+        background-color: #004BAC;
+        color: white;
+      }
+
+      & > a {
+        text-decoration: none;
+        padding: 30px 5px 30px 5px;
+        color: black;
+
+      }
+    }
+  }
+}
+
+header#masthead {
+    display: flex;
+}
+
+.site-branding {
+    width: 40%;
+    @media only screen and (max-width: 768px) {
+      width: 90%;
+    }
+}
+
+.hamburger-menu {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    @media only screen and (max-width: 768px) {
+      width: 10%;
+    }
+}
+
+.nav__logo {
+    width: 283px;
+    height: 52px;
+}
+
+div#primary-menu{
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.main-navigation-burger {
+  padding:0px ;
+
+  & li {
+    padding: 10px;
+    list-style: none;
+  }
+
+  & li:hover {
+    padding: 10px;
+    list-style: none;
+    background-color: #004BAC;
+  }
+
+  & ul {
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+  }
+
+  & a {
+    color: black;
+    text-decoration: none;
+  }
+}

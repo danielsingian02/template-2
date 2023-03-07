@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@300;500&display=swap');
+
+
+.footer-section{
+    display: flex;
+    background-color: #C1C1C1;
+    padding: 1em 7em 1em 7em;
+    margin-bottom: -30px;
+}
+
+.footer-section__col1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.footer-section__co2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+}
+
+.footer-icon{
+    height: auto;
+    max-width: 200px;
+}
+
+.info-footer{
+    font-size: 25px;
+}
+
+hr.solid-line {
+    border-top: 0.5px solid #bbb;
+  }
+
+.copy-right{
+    font-family: 'AirFactoryRounded', sans-serif;
+    text-align: center;
+}
+
+.footer__credits{
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 4  00;
+    font-size: 12px;
+    color: white;
+    margin: 0px;
+}
+
+.footer__navigation{
+    padding:0px ;
+  
+    & li {
+      display: flex;
+      list-style-type: none;
+      border-color: transparent;
+      color: white;
+    }
+  
+    & ul {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      column-gap: 30px;
+      justify-content: start;
+      margin: 0px;
+      padding: 30px 0px 30px 0px;
+      text-align: right;
+    }
+  
+    & a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  
+// --------------------------------------------------------------------------------------------------------//
+//                                          SCREEN SIZE FOR MOBILE  (425px)                                //
+// --------------------------------------------------------------------------------------------------------//
+
+
+ @media only screen and (max-width: 768px) {
+  .footer-section{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-section__col1{
+    width: 100%;
+  }
+
+  .footer__navigation{
+    padding:0px ;
+  
+    & li {
+      display: flex;
+      list-style-type: none;
+      border-color: transparent;
+      color: white;
+      padding: 10px;
+    }
+  
+    & ul {
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 30px;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+    }
+  
+    & a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  .footer__credits{
+    text-align: center;
+  }
+}
