@@ -27,7 +27,16 @@
 <div id="page" class="site">
 	<header id="masthead" class="site-header">
 		<div class="site-branding flex-display-start">
-			<?php $navlogo = get_field('nav_icon') ;?><img src="<?php echo $navlogo ?>" class="nav__logo">
+		<?php
+			if ( function_exists('the_custom_logo') && (! empty(get_custom_logo())) ) :
+				the_custom_logo(); ?>
+			<?php
+			else :
+				?>
+				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+			<?php
+			endif;
+		?>
 		</div><!-- .site-branding -->
 		<div class="hamburger-menu">
 			<nav id="site-navigation" class="main-navigation">

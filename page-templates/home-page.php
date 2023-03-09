@@ -69,7 +69,7 @@ get_header();
         </div>
 
         <div class="news__col2">
-            <h2 class="news__newshead"><?php echo $newshead; ?><?php getAcfValue("recent_news");?></h2>
+            <h2 class="news__newshead"><?php getAcfValue("recent_news");?></h2>
             <p class="news__first-news montserrat-list-news"><?php getAcfValue("first_news");?></p>
             <p class="news__second-news montserrat-list-news"><?php getAcfValue("second_news");?></p>
             <p class="news__third-news montserrat-list-news"><?php getAcfValue("third_news");?></p>

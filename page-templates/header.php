@@ -26,20 +26,6 @@
 <div id="page" class="site">
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
-            <?php
-
-                if ( $siteIcon = get_site_icon_url() ) : ?>
-                    <img src="<?php echo $siteIcon ?>"
-                        class="site-icon"/>
-						<button type="button" class="btn btn-primary">Primary</button>
-                    <?php
-                else :
-                    ?>
-                    <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-                    <?php
-                endif;
-                ?>
-
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">

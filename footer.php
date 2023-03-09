@@ -12,7 +12,16 @@
 ?>
 <div class="footer-section">
 	<div class="footer-section__col1">
-		<?php $maplogo = get_field('map_logo') ;?><img src="<?php echo $maplogo ?>" class="map__logo">
+	<?php
+		if ( function_exists('the_custom_logo') && (! empty(get_custom_logo())) ) :
+			the_custom_logo(); ?>
+		<?php
+		else :
+			?>
+			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+		<?php
+		endif;
+	?>
 	</div>
 
 	<div class="footer-section__col2">
