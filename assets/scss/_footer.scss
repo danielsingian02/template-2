@@ -2,21 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@300;500&display=swap');
 
 
-.footer-section{
+.footer-section {
     display: flex;
     background-color: #C1C1C1;
     padding: 1em 7em 1em 7em;
     margin-bottom: -30px;
 }
 
-.footer-section__col1{
+.footer-section__col1 {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
 }
 
-.footer-section__co2{
+.footer-section__co2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,12 +24,12 @@
     flex-direction: column;
 }
 
-.footer-icon{
+.footer-icon {
     height: auto;
     max-width: 200px;
 }
 
-.info-footer{
+.info-footer {
     font-size: 25px;
 }
 
@@ -37,12 +37,12 @@ hr.solid-line {
     border-top: 0.5px solid #bbb;
   }
 
-.copy-right{
+.copy-right {
     font-family: 'AirFactoryRounded', sans-serif;
     text-align: center;
 }
 
-.footer__credits{
+.footer__credits {
     text-align: right;
     font-family: 'Montserrat', sans-serif;
     font-weight: 4  00;
@@ -51,7 +51,7 @@ hr.solid-line {
     margin: 0px;
 }
 
-.footer__navigation{
+.footer__navigation {
     padding:0px ;
   
     & li {
@@ -77,7 +77,6 @@ hr.solid-line {
       text-decoration: none;
     }
   }
-
   
 // --------------------------------------------------------------------------------------------------------//
 //                                          SCREEN SIZE FOR MOBILE  (425px)                                //
@@ -85,16 +84,16 @@ hr.solid-line {
 
 
  @media only screen and (max-width: 768px) {
-  .footer-section{
+  .footer-section {
     display: flex;
     flex-direction: column;
   }
 
-  .footer-section__col1{
+  .footer-section__col1 {
     width: 100%;
   }
 
-  .footer__navigation{
+  .footer__navigation {
     padding:0px ;
   
     & li {
@@ -121,7 +120,7 @@ hr.solid-line {
     }
   }
 
-  .footer__credits{
+  .footer__credits {
     text-align: center;
   }
 }

@@ -225,7 +225,6 @@ span.psw {
   border-width: 0px 0px 0px 10px;
 }
 
-/* end of About */
 /* Card Section */
 .card-section {
   padding-bottom: 2.5em;
@@ -311,7 +310,6 @@ span.psw {
   width: 100%;
 }
 
-/* end of Card Section */
 /* info */
 .info-section__heading {
   text-align: center;
@@ -355,7 +353,6 @@ span.psw {
   text-decoration: none;
 }
 
-/* end of Info */
 /* services */
 .services {
   padding: 7em;
@@ -451,7 +448,6 @@ a:visited {
   flex-direction: column;
 }
 
-/* end of services */
 /* map section */
 .map {
   padding: 0px;
@@ -526,7 +522,6 @@ iframe.location__iframe {
   height: 100%;
 }
 
-/* end of map section */
 @media only screen and (max-width: 768px) {
   /* Hero Banner */
   .hero-banner {
@@ -545,7 +540,6 @@ iframe.location__iframe {
   .hero-banner__head {
     font-size: 38px;
   }
-  /* end of Hero Banner */
   /* About */
   .about {
     padding: 0px;
@@ -566,12 +560,10 @@ iframe.location__iframe {
     width: 100%;
     padding: 0px;
   }
-  /* end of about Banner */
   /* Cards */
   .card-wrapper__card {
     width: 100%;
   }
-  /* end of cards*/
   /* Services */
   .services {
     padding: 5px;
@@ -596,7 +588,6 @@ iframe.location__iframe {
     -moz-column-gap: 0px;
          column-gap: 0px;
   }
-  /* end of Services*/
   /* Map */
   .map {
     display: flex;
@@ -647,7 +638,6 @@ iframe.location__iframe {
     color: white;
     text-decoration: none;
   }
-  /* end of Map */
 }
 @media only screen and (max-width: 425px) {
   .hero-banner {
@@ -667,7 +657,6 @@ iframe.location__iframe {
   .about__col1 {
     padding: 2em 1em 2em 1em;
   }
-  /* end of About */
   /* Card */
   .card-section__head {
     font-size: 38px;
@@ -679,12 +668,10 @@ iframe.location__iframe {
     margin: 0px 0px 2em 0px;
     padding: 20px;
   }
-  /* end of Card*/
   /* Information */
   .info-section {
     padding: 2em 1em 2em 1em;
   }
-  /* end of Information*/
   /* Services */
   .services {
     padding-top: 5em;
@@ -712,12 +699,10 @@ iframe.location__iframe {
     width: 100%;
     margin: 0px 2em 2em 2em;
   }
-  /* end of Services */
   /* Map */
   .map__logo {
     width: 80%;
   }
-  /* end of Map */
 }
 @font-face {
   font-family: "AirFactoryRounded";

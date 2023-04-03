@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Work+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@300;500;600;700&display=swap');
 
-.hero-banner{
+.hero-banner {
     background-image: url(assets/images/herobanner.png);
     background-size: cover;
     padding: 5em;
 }
 
-.hero-banner__head{
+.hero-banner__head {
     font-family: 'Montserrat', sans-serif;
     font-size: 100px;
     font-weight: 500;
@@ -15,15 +15,15 @@
     color:white;
 }
 
-.hero-banner__col1{
+.hero-banner__col1 {
     width: 60%;
 }
 
-.hero-banner__col2{
+.hero-banner__col2 {
     width: 40%;
 }
 
-.hero__form-title{
+.hero__form-title {
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
@@ -41,7 +41,7 @@ input[type=text], input[type=password] {
     box-sizing: border-box;
 }
 
-.hero__form-btn-container{
+.hero__form-btn-container {
     width: 100%;
     justify-content:end;
 }
@@ -95,7 +95,6 @@ span.psw {
 }
 
 /* About */
-
 .about {
     padding: 7em;
 }
@@ -139,10 +138,7 @@ span.psw {
     border-width: 0px 0px 0px 10px;
 }
 
-/* end of About */
-
 /* Card Section */
-
 .card-section {
     padding-bottom: 2.5em;
 }
@@ -168,7 +164,7 @@ span.psw {
     font-weight: 700;
 }
 
-.card__description{
+.card__description {
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -176,11 +172,11 @@ span.psw {
     color: #525252;
 }
 
-.comment__description{
+.comment__description {
     padding: 20px;
 }
 
-.card__user-description{
+.card__user-description {
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
     font-size: 12px;
@@ -189,7 +185,7 @@ span.psw {
     text-align: left;
 }
 
-.card__user-name{
+.card__user-name {
     margin: 0px;
     font-family: 'DM Sans', sans-serif;
     font-weight: 500;
@@ -222,12 +218,9 @@ span.psw {
     padding: 0px;
 }
 
-.comment-wrapper{
+.comment-wrapper {
     width: 100%;
 }
-
-/* end of Card Section */
-
 /* info */
 
 .info-section__heading {
@@ -272,10 +265,7 @@ span.psw {
     text-decoration: none;
 }
 
-/* end of Info */
-
 /* services */
-
 .services {
     padding: 7em;
 }
@@ -364,12 +354,10 @@ a:visited {
     color: #094DA2;
 }
 
-.map__container-nav-description{
+.map__container-nav-description {
     display: flex;
     flex-direction: column;
 }
-
-/* end of services */
 
 /* map section */
 
@@ -418,7 +406,7 @@ a:visited {
     width: 50%;
 }
 
-.map__description{
+.map__description {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 15px;
@@ -434,7 +422,7 @@ a:visited {
     color: #D9D9D9;
 }
 
-.map__credits-copy{
+.map__credits-copy {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 12px;
@@ -447,8 +435,6 @@ iframe.location__iframe {
     width: 100%;
     height: 100%;
 }
-
-/* end of map section */
 
 
 // --------------------------------------------------------------------------------------------------------//
@@ -477,7 +463,6 @@ iframe.location__iframe {
     .hero-banner__head {
         font-size: 38px;
     }
-/* end of Hero Banner */ 
 
 /* About */ 
     .about{
@@ -503,14 +488,11 @@ iframe.location__iframe {
         width: 100%;
         padding: 0px;
     }
-/* end of about Banner */ 
 
 /* Cards */
     .card-wrapper__card {
         width: 100%;
     }
-/* end of cards*/
-
 
 /* Services */
     .services {
@@ -540,8 +522,6 @@ iframe.location__iframe {
     .services__card-wrapper {
         column-gap: 0px;
     }
-
-/* end of Services*/
 
 /* Map */
     .map {
@@ -605,8 +585,6 @@ iframe.location__iframe {
           text-decoration: none;
         }
       }
-    
-/* end of Map */
 }
 
 // --------------------------------------------------------------------------------------------------------//
@@ -636,8 +614,6 @@ iframe.location__iframe {
         padding: 2em 1em 2em 1em;
     }
 
-/* end of About */
-
 /* Card */
     .card-section__head {
         font-size: 38px;
@@ -652,13 +628,10 @@ iframe.location__iframe {
         padding: 20px;
     }
 
-/* end of Card*/
-
 /* Information */ 
     .info-section {
         padding: 2em 1em 2em 1em;
     }
-/* end of Information*/
 
 /* Services */
     .services {
@@ -693,14 +666,9 @@ iframe.location__iframe {
         margin: 0px 2em 2em 2em;
     }
 
-/* end of Services */
-
 /* Map */
-
     .map__logo {
         width: 80%;
     }
-/* end of Map */
-
 }
 
